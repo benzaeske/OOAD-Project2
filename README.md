@@ -2,6 +2,8 @@
 
 ## Ben Zaeske
 
+For this assignment I decided to translate my java code into python.
+
 ### Assumptions
 
 1. As in the first assignment, I made a few assumptions on what animals eat, and what kinds of noises they make. 
@@ -15,9 +17,9 @@
 - References for Observer pattern in python at the top of 'Observer.py'
 - References for Strategy pattern in python at the top of 'EatBehavior.py'
 
-2. For the strategy pattern portion of this assignment, I implemented an EatBehavior class. All animals are composed of an eatBehavior which contains the eat() method. This can be dynamically changed at runtime. See 'EatBehavior.py' and 'Animal.py'. Specific eating behaviors for each animal are set at the subclass level.
+2. For the strategy pattern portion of this assignment, I implemented an EatBehavior class. All animals contain a protected eatBehavior attribute which references some concrete implementation of the EatBehavior abstract class. This eatBehavior attribute can be dynamically changed at runtime. See 'EatBehavior.py' and 'Animal.py'.
 
-3. For the observer pattern portion of this assignment I defined all related methods within 'Observer.py' which contains the ZookeeperAnnouncer class, and 'Zookeeper.py'
+3. All Observer related classes and methods are defined within 'Observer.py' and 'Zookeeper.py'. 'Observer.py' conatins the ZookeeperAnnouncer, which is a concrete implementation of the abstract Observer class I definded. 
 
 4. The 'main' method of the program is located in 'Zoo.py' as in the first assignment.
 
