@@ -62,11 +62,11 @@ ron.addObserver(tammy)
 #Redirect output to "dayatthezoo.out" (https://stackoverflow.com/questions/7152762/how-to-redirect-print-output-to-a-file-using-python)
 orig_stdout = sys.stdout
 f = open('dayatthezoo.out', 'w')
-#sys.stdout = f
+sys.stdout = f
 
 #Start a day at the zoo!
 ron.dayAtTheZoo(zoo)
 
 #Restore stdout to console
-sys.stdout = orig_stdout
+#sys.stdout = orig_stdout
 
