@@ -3,6 +3,7 @@
 ## Ben Zaeske
 
 For this assignment I decided to translate my java code into python.
+All code was developed using the Spyder IDE which was run via Anaconda.
 
 ### Assumptions
 
